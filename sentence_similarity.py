@@ -102,5 +102,3 @@ class sentence_similarity:
 
         print(df_combined.head())
         df_combined.to_csv('similarity_reviews_groups.csv', index=False)
-
-        print(f"Pozitif ve negatif gruplar birleştirildi. Toplam grup sayısı: {len(combined_groups)}")
